@@ -6,7 +6,7 @@ exports.word = function (values,connection, mycallbackFunc) {
       if (err) throw err;
       console.log(result);
       output = result;
-      mycallbackFunc(result);
+       mycallbackFunc(result);
     }
   );
 };
